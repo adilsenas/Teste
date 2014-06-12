@@ -1,0 +1,120 @@
+
+{
+	"toJSON" : true,
+	"extraProperties" : 
+	{
+		"version" : "2",
+		"classes" : 
+		{
+			"DataClass1" : 
+			{
+				"panelColor" : "rgb(183, 221, 232)",
+				"methodInhVisible" : "true",
+				"methVisible" : "false",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : false,
+					"position" : 
+					{
+						"X" : 25,
+						"Y" : 20
+					}
+				}
+			},
+			"DataClass2" : 
+			{
+				"panelColor" : "#eee",
+				"methVisible" : "false",
+				"methodInhVisible" : "false",
+				"panel" : 
+				{
+					"isOpen" : "true",
+					"pathVisible" : true,
+					"position" : 
+					{
+						"X" : 245,
+						"Y" : 20
+					}
+				}
+			}
+		},
+		"model" : 
+		{
+			"scriptMode" : "manual",
+			"workspaceLeft" : 3,
+			"workspaceTop" : 0,
+			"methodShowMode" : "false",
+			"methodInhShowMode" : "false",
+			"lastScriptLocation" : 
+			{
+				"DataClass1" : 
+				{
+					"method" : "DataClass1/DataClass1-methods.js",
+					"events" : "DataClass1/DataClass1-events.js"
+				},
+				"DataClass2" : 
+				{
+					"method" : "DataClass2/DataClass2-methods.js"
+				}
+			}
+		}
+	},
+	"dataClasses" : 
+	[
+		{
+			"name" : "DataClass1",
+			"className" : "DataClass1",
+			"collectionName" : "DataClass1Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		},
+		{
+			"name" : "DataClass2",
+			"className" : "DataClass2",
+			"collectionName" : "DataClass2Collection",
+			"scope" : "public",
+			"attributes" : 
+			[
+				{
+					"name" : "ID",
+					"kind" : "storage",
+					"scope" : "public",
+					"unique" : true,
+					"autosequence" : true,
+					"type" : "long",
+					"indexKind" : "btree"
+				},
+				{
+					"name" : "attribute1",
+					"kind" : "storage",
+					"scope" : "public",
+					"type" : "duration"
+				}
+			],
+			"key" : 
+			[
+				{
+					"name" : "ID"
+				}
+			]
+		}
+	]
+}

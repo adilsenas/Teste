@@ -1,0 +1,2 @@
+﻿include("./Model/DataClass1/DataClass1-methods.js"),include("./Model/DataClass2/DataClass2-methods.js"),include("./Model/DataClass1/DataClass1-events.js")
+include("./Model/DataClass1/DataClass1-methods.js");
